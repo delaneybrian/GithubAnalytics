@@ -1,4 +1,4 @@
-on: [pull]
+on: [pull_request]
 
 jobs:
   hello_world_job:
