@@ -11,4 +11,4 @@ jobs:
         with:
           organization: 'Mona the Octocat'
           token: 'tokenvalue'
-          configPath: ${{ github.workspace }}/team-label-config.yaml
+          configPath: ${{ github.workspace }}/.github/workflows/team-label-config.yaml
