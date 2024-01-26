@@ -7,9 +7,11 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: delaneybrian/github-team-labeler@v0.1
+        uses: delaneybrian/github-team-labelerßß@v1.0
         with:
-          who-to-greet: 'Mona the Octocat'
+          organization: 'Test'
+          token: 'Test'
+          configPath: 'Test'
       # Use the output from the `hello` step
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
