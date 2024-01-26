@@ -2,7 +2,7 @@ import requests
 import json
 from datetime import datetime, timedelta
 import humanize
-#added a commenteeerere
+#added a commenteeerereereß
 with open('config.json') as f:
     config_data = json.load(f)
 
