@@ -9,7 +9,7 @@ jobs:
         uses: actions/checkout@v3
       - name: Hello world action step
         id: hello
-        uses: delaneybrian/github-team-labeler@v1.5
+        uses: delaneybrian/github-team-labeler@v1.6
         with:
           organization: 'Mona the Octocat'
           token: 'tokenvalue'
