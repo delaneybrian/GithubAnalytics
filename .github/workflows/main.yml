@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: delaneybrian/github-team-labeler@v1.2
+        uses: delaneybrian/github-team-labeler@v1.4
         with:
           organization: 'Mona the Octocat'
           token: 'tokenvalue'
