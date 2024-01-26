@@ -5,10 +5,12 @@ jobs:
     runs-on: ubuntu-latest
     name: A job to say hello
     steps:
+      - name: Check out the repo
+        uses: actions/checkout@v3
       - name: Hello world action step
         id: hello
         uses: delaneybrian/github-team-labeler@v1.4
         with:
           organization: 'Mona the Octocat'
           token: 'tokenvalue'
-          configPath: ${{ github.workspace }}/.github/workflows/team-label-config.yaml
+          configPath: 'team-label-config.yaml'
